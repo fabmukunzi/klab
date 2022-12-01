@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clever | Login</title>
+    <!-- Link to font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Link to the css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- The blue and gray background containers -->
+    <div class="empty__left"></div>
+    <div class="empty__right"></div>
+
+    <!-- The foreground container of form and other details -->
+    <div class="main__container">
+
+        <div class="image__container">
+            <img src="./image.png" alt="welcome image" style="object-fit:cover;width:fit-content;position:relative;left:3rem;">
+        </div>
+
+        <div class="form__container">
+            <form action="" style="font-size: 15px;">
+                <h1 class="form__title">Create your account</h1>
+                <p class="form__subtitle">It's free and easy</p>
+                <div class="form__control">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form__control">
+                    <label for="email_or_phone">E-mail or phone number</label>
+                    <input type="text" id="email_or_phone" placeholder="Type your e-mail or phone number">
+                </div>
+                <div class="form__control">
+                    <label for="name">Your name</label>
+                    <input type="text" id="name" placeholder="Type your password">
+                    <span class="password__requirement">Must be 8 characters at least</span>
+                </div>
+                <div class="form__control__group">
+                    <input type="checkbox" id="accept_terms_and_conditions">
+                    <label for="accept_terms_and_conditions"> 
+                        By creating an account means you agree to the <span class="bold__content">Terms and Conditions</span>
+                        , and our <span class="bold__content ">Privacy Policy</span>
+                    </label>
+                </div>
+                <button type="submit">Register</button>
+                <span class="divider">or do it via other accounts</span>
+                <div class="icons__container">
+                    <i><img src="./icons8-google-96.png" style="width: 1.5rem;"></i>
+                    <i><img src="./icons8-apple-logo-96.png" style="width: 1.5rem;"></i>
+                    <i><img src="./icons8-facebook-96.png" style="width: 1.5rem;"></i>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

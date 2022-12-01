@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body,
+div.main__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.empty__left,
+div.empty__right {
+    width: 50%;
+    height: 100vh;
+    background-color: #4C6FFF;
+}
+
+div.empty__right {
+    background-color: #E5EBF5;
+}
+
+div.main__container {
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+div.image__container {
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+div.form__container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: #F7FAFC;
+    width: 68%;
+    height: 88%;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+}
+
+h1.form__title {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+p.form__subtitle {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+div.form__control {
+    margin-bottom: 1.5rem;
+}
+
+div.form__control label {
+    color: #435566;
+}
+
+div.form__control input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin-top: .3rem;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: -1rem;
+    box-shadow: 1px 3px 5px #EEF1F4;
+}
+
+div.form__control input:focus {
+    outline: 1px solid #435566;
+}
+
+span.password__requirement {
+    color: #435566;
+    font-size: 12px;
+    margin-bottom: -5rem;
+}
+
+div.form__control__group {
+    display: flex;
+    align-items: flex-start;
+}
+
+div.form__control__group input {
+    height: 20px;
+    width: 20px;
+    margin-right: .4rem;
+    margin-bottom: -5rem;
+}
+
+div.form__control__group label {
+    color: #425466;
+    font-size: 14px;
+}
+
+span.bold__content {
+    font-weight: 500;
+}
+
+button {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: #4C6FFF;
+    padding: .8rem 0;
+    border: 0;
+    border-radius: 5px;
+    color: White;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+span.divider {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #425466;
+}
+
+div.icons__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    margin-top: 1rem;
+}
